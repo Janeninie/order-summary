@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="h-screen flex items-center justify-center bg-mobile sm:bg-desktop bg-no-repeat bg-contain bg-primary-paleBlue">
+    <main className="h-screen flex items-center justify-center bg-mo sm:bg-desktop bg-no-repeat bg-contain bg-primary-paleBlue">
       <section className="flex flex-col w-96 bg-white rounded-xl shadow-card">
         <div className="">
           <Image
-            src={"/Images/illustration-hero.svg"}
+            src={"/images/illustration-hero.svg"}
             alt="Illustration"
             width={450}
             height={220}
